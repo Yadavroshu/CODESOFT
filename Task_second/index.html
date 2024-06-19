@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+
+
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+            </nav>
+        </div>
+        <div class="contant">
+            <div class="photo">
+                <img src="r1.jpeg" alt="">
+            </div>
+            <div class="header-text">
+                <p>Hi, I'm Roshani.</p>
+                <h1>WEB DEVELOPER</h1>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <h1 class="title">About Me </h1>
+                    <h2> Web Developer</h2>
+                    <p> Hello ! I'm Roshani, currently pursuing my master's in Computer Application (MCA)
+                        from Medicaps University.
+                        I am dedicated to expanding my knowledge and skills in web technologies.
+                        I have completed my Bachelor's degree in BSC (cs) from DAVV University.
+                        My academic journey has epuipped me with a basic understanding of programming languages,
+                        algorithms. </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contants active-tab" id="Skills">
+                        <ul>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contants" id="Education">
+                        <ul>
+                            <li>2018 10th From GOVT.H.S.S.</li>
+                            <li>2020 12th From Excellence No.1, Khargone.</li>
+                            <li>2020-2023 BSC From DAVV University.</li>
+                            <li>2024 MCA From Medicaps University, Indore.</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col2">
+                    <img src="r2.jpeg">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img2.jpeg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img height=220px src="img3.jpeg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p>contact@example.com</p>
+                    <P>0123456789</P>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/roshani-yadav-268983293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="Roshani Yadav.docx" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" row="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright © roshu. Made by Roshani Yadav</p>
+            
+        </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
