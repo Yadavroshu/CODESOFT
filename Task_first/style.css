@@ -1,0 +1,150 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar*/
+.navbar{
+position: absolute;
+display: flex;
+justify-content: space-between;
+width: 100%;
+list-style-type:none;
+color: white;
+padding: 20px;
+}
+.logo{
+    font-size: 50px;
+}
+.logo:hover{
+    text-decoration: line-through;
+}
+.nav_link{
+    display: flex;
+    align-items: center;
+    
+
+}
+.nav_link li{
+    margin: 0px 30px;
+
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('img/header-bg.png');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+button:hover{
+    background-color: yellowgreen;
+}
+button{
+    width: 50%px;
+    height: 50px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: rgb(117, 7, 58);
+}
+ .head{
+    margin-bottom: 150px;
+    color:white;
+    text-align: center;
+}
+.head h2{
+    font-size: 4vmin;
+}
+.head h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: red;
+    margin: 10PX auto;
+    border-radius:15px;
+}
+section{
+    width: 80%;
+}
+.title{
+  text-align: center;
+  font-size: 30px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+}
+.events.row{
+    margin-top:50px ;
+
+} 
+h4{
+    font-size: 3vmin;
+    margin:20px auto;
+    color:rgb(39, 39, 88);
+}
+p{
+    padding:10px 40px;
+    color:rgb(74, 123, 123);
+}
+.explore{
+    width: 100%;
+    height: 80vh;
+    background-image: url("img/bg2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    margin-top:50px;
+}
+.explore_cont{
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+.explore_cont h1{
+    font-size: 10vmin;
+}
+.explore_cont p{
+    color: rgb(104, 74, 133);
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    padding: 20px 80px;
+    margin:0;
+    background-color: rgb(23, 3, 40);
+   text-align: center;
+   border: 1px;
+}
+
+.footer p{
+    color: white;
+}
+img:hover{
+    transform: scale(1.1);
+}
+  
+
+
+    
+
